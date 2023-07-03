@@ -4,7 +4,7 @@
 if BOARD_DAO_LEFT
 
 	config ZMK_KEYBOARD_NAME
-	default "Dao"
+	default "OwlKey"
 
     config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
@@ -14,7 +14,7 @@ endif # BOARD_DAO_LEFT
 if BOARD_DAO_LEFT || BOARD_DAO_RIGHT
 
 config BOARD
-	default "dao"
+	default "OwlKey"
 
 config ZMK_SPLIT
 	default y
